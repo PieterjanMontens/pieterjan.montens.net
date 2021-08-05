@@ -11,10 +11,10 @@ jobs:
               uses: actions/checkout@master
 
             - name: Sync files
-              uses: SamKirkland/FTP-Deploy-Action@4.1.0
+              uses: wlixcc/SFTP-Deploy-Action@v1.0
               with:
                   server: ${{ secrets.FTP_SERVER }}
                   username: ${{ secrets.FTP_USERNAME }}
                   password: ${{ secrets.FTP_PASSWORD }}
                   port : ${{secrets.FTP_PORT}}
-                  protocol: ftps
+                  remote_path: ${{secrets.FTP_PATH}}
