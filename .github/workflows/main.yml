@@ -10,12 +10,22 @@ jobs:
             - name: Get content
               uses: actions/checkout@master
 
-            - name: Sync files
-              uses: SamKirkland/FTP-Deploy-Action@3.1.1
+              # - name: Sync files
+              #   uses: SamKirkland/FTP-Deploy-Action@3.1.1
+              #   with:
+              #       ftp-server: ${{ secrets.FTP_SERVER }}
+              #       ftp-username: ${{ secrets.FTP_USERNAME }}
+              #       ftp-password: ${{ secrets.FTP_PASSWORD }}
+              #       ftp-port : ${{secrets.FTP_PORT}}
+              #       server-dir: ${{secrets.FTP_PATH}}
+              #       # git-ftp-args: --dry-run --insecure
+            - name: FTP Deploy
+              uses: sand4rt/ftp-deployer@v1.3
               with:
-                  ftp-server: ${{ secrets.FTP_SERVER }}
-                  ftp-username: ${{ secrets.FTP_USERNAME }}
-                  ftp-password: ${{ secrets.FTP_PASSWORD }}
-                  ftp-port : ${{secrets.FTP_PORT}}
-                  server-dir: ${{secrets.FTP_PATH}}
-                  # git-ftp-args: --dry-run --insecure
+                sftp: true
+                host: ${{ secrets.FTP_SERVER }}
+                port: ${{ secrets.FTP_PORT }}
+                username: ${{ secrets.FTP_USERNAME }}
+                password: ${{ secrets.FTP_PASSWORD }}
+                remote_folder: ${{ secrets.FTP_PATH }}
+                local_folder: 
