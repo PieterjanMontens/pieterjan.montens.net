@@ -37,8 +37,6 @@ define('CURRENT_LANG',strval($ln));
                 <!--
                 <dd>➜ <a href="http://youtu.be/5CIf8qu9YWI" class="translate" data-term="eproadmin-video" alt="Short e-ProAdmin presentation">
                     <?php e('epro_video');?></a></dd>
-                <dd>➜ <a href="./technical_sheet.txt" class="translate" data-term="eproadmin-tech" alt="e-ProAdmin brief technical description">
-                    <?php e('epro_techsheet');?></a></dd>
                 -->
                 <dd>➜ <a href="http://reflex.raadvst-consetat.be/reflex/pdf/Mbbs/2014/01/16/126273.pdf" class="translate" data-term="eproadmin-order" alt="Royal Order establishing the electronic proceedings platform">
                     <?php e('epro_order');?></a></dd>
