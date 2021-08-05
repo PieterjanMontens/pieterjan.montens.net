@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /varro/
+Disallow: /sites/
+Disallow: /img/
+Disallow: /theme/
+Disallow: /awstats/
+Disallow: /gnaeus/
+Disallow: /monbus/

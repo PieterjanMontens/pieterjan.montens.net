@@ -19,7 +19,7 @@ body {
     padding-top:3em;
     background-color:#fff;
     padding-bottom:3em;
-    height:116em;
+    height:115em;
     z-index:10;
     box-shadow: -2px -2px 10px #000;
     }
@@ -44,10 +44,10 @@ div#image {
 
 #realisations { position:absolute;top:13em;}
 #weblife { position:absolute; top:54.5em; }
-#contact{position:absolute;top:67em;}
-#experience { position:absolute; top:73em; }
-#curriculum { position:absolute; top:100em; }
-#geekcred { position:absolute; top:106em; }
+#contact{position:absolute;top:64em;}
+#experience { position:absolute; top:70em; }
+#curriculum { position:absolute; top:97em; }
+#geekcred { position:absolute; top:103em; }
 
 div.column {
     position:fixed;

@@ -34,12 +34,16 @@ define('CURRENT_LANG',strval($ln));
                 <dd class="translate" data-term="juridict-desc"><?php e('juridict-desc')?></dd>
                 <dt><span><a href="http://eproadmin.raadvst-consetat.be" class="translate" data-term="eproadmin" rel="nofollow"><?php e('eproadmin');?></a></span></dt>
                 <dd class="translate" data-term="eproadmin-desc"><?php e('eproadmin-desc');?></dd>
+                <!--
                 <dd>➜ <a href="http://youtu.be/5CIf8qu9YWI" class="translate" data-term="eproadmin-video" alt="Short e-ProAdmin presentation">
                     <?php e('epro_video');?></a></dd>
                 <dd>➜ <a href="./technical_sheet.txt" class="translate" data-term="eproadmin-tech" alt="e-ProAdmin brief technical description">
                     <?php e('epro_techsheet');?></a></dd>
+                -->
                 <dd>➜ <a href="http://reflex.raadvst-consetat.be/reflex/pdf/Mbbs/2014/01/16/126273.pdf" class="translate" data-term="eproadmin-order" alt="Royal Order establishing the electronic proceedings platform">
                     <?php e('epro_order');?></a></dd>
+                <dt><span><a href="http://www.raadvst-consetat.be/?page=adv_search" class="translate" data-term="adv_search"><?php e('adv_search');?></a></span></dt>
+                <dd class="translate" data-term="adv_search-desc"><?php e('adv_search-desc')?></dd>
                 <dt><span><a href="http://etaamb.be" class="translate" data-term="etaamb"><?php e('etaamb');?></a></span></dt>
                 <dd class="translate" data-term="etaamb-desc"><?php e('etaamb-desc');?></dd>
                 <dt class="translate" data-term="nonpubl"><?php e('nonpubl');?></dt>
@@ -57,7 +61,9 @@ define('CURRENT_LANG',strval($ln));
             <ul>
                 <li><span><a href="http://be.linkedin.com/in/pieterjanmontens/" class="translate" data-term="linkedin"><?php e('linkedin');?></a></span></li>
                 <li><span><a href="https://twitter.com/pieterjan_m" class="translate" data-term="twitter"><?php e('twitter');?></a></span></li>
+                <!--
                 <li><span><a href="http://careers.stackoverflow.com/pieterjanmontens " class="translate" data-term="stack"><?php e('stack');?></a></span></li>
+                -->
                 <li><span><a href="https://github.com/PieterjanMontens" class="translate" data-term="github"><?php e('github');?></a></span></li>
             </ul>
         </section>
@@ -84,7 +90,7 @@ define('CURRENT_LANG',strval($ln));
         <section id="curriculum" class="block">
             <h3 class="translate" data-term="curriculum"><?php e('curriculum');?></h3>
             <ul>
-                <li><span><a href="#" class="translate" data-term="cv-1" rel="nofollow"><?php e('cv-1');?></a></span></li>
+                <li><span><a href="./pub/cv_web_2015.pdf" class="translate" data-term="cv-1" rel="nofollow"><?php e('cv-1');?></a></span></li>
             </ul>
         </section>
 
@@ -93,9 +99,9 @@ define('CURRENT_LANG',strval($ln));
             <ul>
                 <li><span class="translate" data-term="arduino"><?php e('arduino');?></span></li>
                 <li><span class="translate" data-term="opensource"><?php e('opensource');?></span></li>
-                <li><span class="translate" data-term="thinkpad"><?php e('thinkpad');?></span></li>
                 <li><span class="translate" data-term="input"><?php e('input');?></span></li>
                 <li><span class="translate" data-term="env"><?php e('env');?></span></li>
+                <li><span><a class="translate" data-term="workstation" href="http://imgur.com/a/36RGU"><?php e('workstation');?></a></span></li>
             </ul>
         </section>
         <div id="lang">
@@ -110,7 +116,7 @@ define('CURRENT_LANG',strval($ln));
     </script>
 
 
-    <script type="text/javascript" src="./jquery-1.7.1.js"></script>
+    <script type="text/javascript" src="./jquery-3.2.1.slim.min.js"></script>
     <script type="text/javascript" src="./quickndirty.js"></script>
     </body>
 </html><?php

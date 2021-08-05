@@ -1,28 +1,29 @@
 <?php
 $langs = array('fr','nl','en');
+$exp = date("Y") - 2007;
 $terms = array(
     'name' => array( 'default'=>'Pieterjan Montens', ),
     'slogan' => array(
-        'fr'=>'Juriste, Ingénieur logiciel et système',
-        'nl'=>'Jurist, Software en systeem ingenieur',
-        'en'=>'Jurist, Software and system engineer'
+        'fr'=>'Une passion pour l\'informatisation du Droit, des cours et des tribunaux',
+        'nl'=>'Een passie voor informatisering van het Recht, hoven en rechtbanken',
+        'en'=>'A passion for Law & Court computerization'
         ),
     'subtitle1'=> array(
-        'fr'=>'Je construis des applications web juridiques. Certaines sont publiques.',
-        'nl'=>'Ik bouw juridische web applicaties. Sommige zijn voor het publiek beschikbaar.',
-        'en'=>'I build legal web applications. Some are public.'
+        'fr'=>"Juriste, Ingénieur logiciel et système: $exp ans d'expérience en conception, réalisation et soutien.",
+        'nl'=>"Jurist, Software en systeem ingenieur: $exp jaar ervaring in ontwerpen, uitvoeren en ondersteunen.",
+        'en'=>"Jurist, Software and system engineer: $exp years of experience in design, implementation and support."
              ),
     'juridict'=>array('default'=>'juridict'),
     'juridict-desc'=> array(
         'fr'=>'Moteur de recherche et de consultation de doctrine juridique du Conseil d\'État belge',
         'nl'=>'Zoek- en raadpleeg- motor voor rechtsleer van de Belgische Raad van State',
-        'en'=>'Search  and consulting engine for the belgian Supreme Administrative Court\'s legal doctrine'
+        'en'=>'Search  and consulting engine for the Belgian Supreme Administrative Court\'s legal doctrine'
         ),
     'eproadmin'=> array('default'=>'e-ProAdmin'),
     'eproadmin-desc'=> array(
         'fr'=>'Plate-forme de procédure électronique devant le Conseil d\'État belge',
         'nl'=>'Elektronische procedure platform voor de Belgische Raad van State',
-        'en'=>'Electronic proceedings platform before the Belgian Council of State'
+        'en'=>'Electronic proceedings platform before the Belgian Supreme Administrative Court'
         ),
     'eproadmin-video'=> array(
         'fr'=>'Courte vidéo de présentation',
@@ -38,6 +39,12 @@ $terms = array(
         'fr'=>'Arrêté royal du 13 janvier 2014 instaurant la procédure électronique',
         'nl'=>'Koninklijk besluit van 13 januari 2014 die de elektronische rechtspleging invoert',
         'en'=>'Royal Decree of 13 januari 2014 establishing the electronic procedure'
+        ),
+    'adv_search'=>array('default'=>'adv_search'),
+    'adv_search-desc'=> array(
+        'fr'=>'Moteur de recherche des avis du Conseil d\'État belge',
+        'nl'=>'Zoekmotor van de adviezen van de Belgische Raad van State',
+        'en'=>'Search engine of the opions from the Belgian Supreme Administrative Court'
         ),
     'etaamb'=>array('default'=>'etaamb'),
     'etaamb-desc'=>array(
@@ -89,9 +96,9 @@ $terms = array(
         'en'=>'Council of State'
         ),
     'council_desc'=>array(
-        'fr'=>'Attaché, Service TIC, développement d\'applications internes et externes, administration systèmes &amp; réseau. Depuis 2007',
-        'nl'=>'Attaché, ICT Dienst, ontwikkeling van interne en externe applicaties, systeem en netwerkbeheer. Sinds 2007',
-        'en'=>'ICT Service, development of internal and external applications, systems &amp; network administration. Since 2007'
+        'fr'=>'Attaché, Service TIC, développement d\'applications internes et externes, administration systèmes &amp; réseau. Depuis 2007.',
+        'nl'=>'Attaché, ICT Dienst, ontwikkeling van interne en externe applicaties, systeem en netwerkbeheer. Sinds 2007.',
+        'en'=>'ICT Service, development of internal and external applications, systems &amp; network administration. Since 2007.'
         ),
     'formateur'=>array(
         'fr'=>'Formateur',
@@ -110,9 +117,9 @@ $terms = array(
         ),
     'freelance'=>array('default'=>'Freelance'),
     'freelance_dd'=>array(
-        'fr'=>'Développement de projets personnels, consultance, formation. Depuis 2008',
-        'nl'=>'Ontwikkeling van persoonlijke projecten, consultancy, opleidingen. Sinds 2008',
-        'en'=>'Development of personal projects, consultancy, training. Since 2008'
+        'fr'=>'Développement de projets personnels, consultance, formation. 2008 - 2016',
+        'nl'=>'Ontwikkeling van persoonlijke projecten, consultancy, opleidingen. 2008 - 2016',
+        'en'=>'Development of personal projects, consultancy, training. 2008 - 2016'
         ),
     'internship_dd'=>array(
         'fr'=>'Stage à la Chambre des Représentants, projet BelgiqueLex, méta-moteur de recherche, 2005',
@@ -120,17 +127,17 @@ $terms = array(
         'en'=>'Internship in the Belgian House of Representatives, BelgiumLex project, meta-search engine project in 2005'
         ),
     'curriculum'=>array('default'=>'Curriculum'),
-    'cv-1'=>array('default'=>'EN - 2011'),
+    'cv-1'=>array('default'=>'EN - 2015'),
     'cred_title'=>array(
         'fr'=>'Faits d\'armes (aka Geek Cred)',
         'nl'=>'Feats (aka Geek Cred)',
         'en'=>'Feats (aka Geek Cred)',
         ),
-    'arduino'=>array('default'=>'Arduino hacker'),
+    'arduino'=>array('default'=>'Arduino & Raspberry hacker'),
     'software'=>array('default'=>'Software craftmanship'),
     'opensource'=>array('default'=>'Open-source fanatic'),
     'photos'=>array('default'=>'Background pictures are mine'),
-    'thinkpad'=>array('default'=>'Thinkpads\'n\'Trackpoints'),
     'input'=>array('default'=>'Mechanical keyboards &amp; Trackballs'),
-    'env'=>array('default'=>'Dev environment: debian/wmii/gvim')
+    'env'=>array('default'=>'Dev environment: debian/i3/gvim'),
+    'workstation'=>array('default'=>'A decent workstation')
     );

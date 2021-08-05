@@ -1,6 +1,7 @@
 <?php
 $dir = "./small_photos";
 
+//script de passage alÃ©atoire d'images.. yeah
 //$origin = substr($_SERVER['HTTP_REFERER'], 0,23);
 $origin = "g";
 
