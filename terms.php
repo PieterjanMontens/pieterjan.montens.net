@@ -6,7 +6,7 @@ $terms = array(
     'slogan' => array(
         'fr'=>'Une passion pour l\'informatisation du Droit, des cours et des tribunaux',
         'nl'=>'Een passie voor informatisering van het Recht, hoven en rechtbanken',
-        'en'=>'A passion for Law and Court computerization'
+        'en'=>'A passion for Law & Court computerization'
         ),
     'subtitle1'=> array(
         'fr'=>"Juriste, Ingénieur logiciel et système: $exp ans d'expérience en conception, réalisation et soutien.",

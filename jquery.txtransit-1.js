@@ -1,10 +1,8 @@
 (function($) 
     {
     var settings;
-
     $.fn.txtransit = function(arg1,options)
         {
-        console.log("Define Txtransit");
         var arg1 = arg1 || {};
 
         if ($.isPlainObject(arg1))
@@ -24,13 +22,11 @@
         return this.each(function() {
             this.txtransit = function(Text)
                 {
-                console.log("set to text");
                 $(this).html(Text);
                 }
             });
 
         }
-
     $.fn.txtransit.defaults = {
                 steps      : 20,
                 interval   : 75,
