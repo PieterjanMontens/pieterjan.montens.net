@@ -1,7 +1,7 @@
 on:
     # Only manual for the time beig
     workflow_dispatch:
-name: Deploy on push
+name: Deploy to SFTP
 jobs:
     deploy:
         name: Deploy
@@ -11,10 +11,10 @@ jobs:
               uses: actions/checkout@master
 
             - name: Sync files
-              uses: wlixcc/SFTP-Deploy-Action@v1.0
+              uses: SamKirkland/FTP-Deploy-Action@4.1.0
               with:
                   server: ${{ secrets.FTP_SERVER }}
                   username: ${{ secrets.FTP_USERNAME }}
                   password: ${{ secrets.FTP_PASSWORD }}
                   port : ${{secrets.FTP_PORT}}
-                  remote_path: ${{secrets.FTP_PATH}}
+                  server-dir: ${{secrets.FTP_PATH}}
