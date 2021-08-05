@@ -1,0 +1,181 @@
+html {
+    }
+
+h1,h3, dd, dt, a, span, li, div{
+    word-wrap:break-word;
+    }
+
+body {
+    font-family:verdana;
+    color:#413333;
+    font-size:10px;
+    }
+
+#main {
+    position:relative;
+    width:80%;
+    padding-left:1.5em;
+    padding-top:1em;
+    background-color:#fff;
+    padding-bottom:3em;
+    z-index:10;
+    margin-left:1em;
+    box-shadow: -2px -2px 10px #000;
+    }
+
+div#image {
+    position:absolute;
+    top:0;left:0;
+    width:100%;
+    min-height:110em;
+    height:100%;
+    z-index:0;
+
+    background-image:url(./smallphoto.php);
+    background-size:cover;
+    background-repeat: no-repeat;
+    }
+
+#title {
+    position:relative;
+    }
+
+
+
+div.column {
+    display:none;
+    }
+
+div#col1 {
+    left:46em;
+    opacity:.4;
+    }
+
+div#col2 {
+    left:54em;
+    opacity:.3;
+    width:10em;
+    }
+
+div#col3 {
+    left:50em;
+    width:.5em;
+    opacity:.6;
+    }
+
+
+h1 {
+    font-size:2.6em;
+    color:#d1cccc;
+    font-weight:bold;
+    margin-bottom:10px;
+    }
+
+h2 {
+    font-size:1.5em;
+    }
+
+h3 {
+    font-family:georgia;
+    font-family:monospace;
+    font-weight:normal;
+    font-size:1.5em;
+    margin:1.5em 0 1em;
+    line-height:1.2em;
+    }
+
+.block h3 {
+    font-family:monospace;
+    font-size:1.2em;
+    border-bottom:1px solid #333;
+    }
+
+.block {
+    margin:0 0 1em 0;
+    width:90%;
+    }
+
+.block dt {
+    border-left:5px solid #ccc;
+    padding-left:.8em;
+    color:#444;
+    margin:0 0 .5em 0;
+    }
+
+.block dd {
+    margin:0 0 1em 1.5em;
+    line-height:1.4em;
+    }
+
+.block a {
+    color:#00b;
+    text-decoration:none;
+    border-bottom:1px solid #fff;
+    }
+
+    .block a:hover {
+        border-color:#44f;
+        }
+
+ul {
+    margin:1em 0 0 2em;
+    list-style-type:square;
+    color:#ccc;
+    line-height:1.2em;
+    }
+
+    ul li {
+        margin:.3em 0 .5em;
+        }
+
+    ul li span {
+        color:#444;
+        }
+
+    dd ul li {
+        color:#444;
+        }
+
+    ul ul {
+        list-style-type:disc;
+        }
+
+#lang {
+    position:fixed;
+    top:5px;
+    right:5px;
+    background-color:#fff;
+    }
+
+    #lang ul {
+        margin:0;padding:0;
+        list-style-type:none;
+        }
+
+    #lang li {
+        background-color:#fff;
+        margin-bottom:9px;
+        padding:1px;
+        }
+
+    #lang li:last-child {
+        margin-bottom:2px;
+        }
+
+
+    #lang li a {
+        text-decoration:none;
+        color:#aaa;
+        border:1px solid #fff;
+        font-size:1.3em;
+        }
+
+    #lang li a.selected {
+        border-color:#ccc;
+        }
+
+    #lang li a:hover {
+        border-color:#666;
+        color:#666;
+        }
+ 
