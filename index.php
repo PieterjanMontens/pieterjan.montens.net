@@ -17,6 +17,7 @@ define('CURRENT_LANG',strval($ln));
     <link type="text/css" rel="stylesheet" href="reset.css" media="screen">
     <link type="text/css" rel="stylesheet" href="small.css" media="only screen and (max-device-width : 480px)">
     <link type="text/css" rel="stylesheet" href="style.css" media="only screen and (min-device-width : 480px)">
+    <link rel="icon" type="image/png" href="/favicon.png">
     <title>Pieterjan Montens</title>
 
     <body>
@@ -25,6 +26,11 @@ define('CURRENT_LANG',strval($ln));
         <section id="title">
             <h1 data-term="name" class="translate"><?php e('name'); ?></h1>
             <h3 data-term="slogan" class="translate"><?php e('slogan');?></h3>
+            <div id="flags">
+                <img src="be.png" \>
+                <img src="fr.png" \>
+                <img src="ch.png" \>
+            </div>
         </section>
 
         <section id="realisations" class="block">
@@ -32,6 +38,7 @@ define('CURRENT_LANG',strval($ln));
             <dl>
                 <dt><span><a href="http://juridict.raadvst-consetat.be/" class="translate" data-term="juridict"><?php e('juridict');?></a></span></dt>
                 <dd class="translate" data-term="juridict-desc"><?php e('juridict-desc')?></dd>
+
                 <dt><span><a href="http://eproadmin.raadvst-consetat.be" class="translate" data-term="eproadmin" rel="nofollow"><?php e('eproadmin');?></a></span></dt>
                 <dd class="translate" data-term="eproadmin-desc"><?php e('eproadmin-desc');?></dd>
                 <!--
@@ -40,17 +47,20 @@ define('CURRENT_LANG',strval($ln));
                 -->
                 <dd>➜ <a href="http://reflex.raadvst-consetat.be/reflex/pdf/Mbbs/2014/01/16/126273.pdf" class="translate" data-term="eproadmin-order" alt="Royal Order establishing the electronic proceedings platform">
                     <?php e('epro_order');?></a></dd>
-                <dt><span><a href="http://www.raadvst-consetat.be/?page=adv_search" class="translate" data-term="adv_search"><?php e('adv_search');?></a></span></dt>
-                <dd class="translate" data-term="adv_search-desc"><?php e('adv_search-desc')?></dd>
+
                 <dt><span><a href="http://etaamb.be" class="translate" data-term="etaamb"><?php e('etaamb');?></a></span></dt>
                 <dd class="translate" data-term="etaamb-desc"><?php e('etaamb-desc');?></dd>
+
+                <dt><span><a href="https://openjustice.be" class="translate" data-term="openjustice"><?php e('etaamb');?></a></span></dt>
+                <dd class="translate" data-term="openjustice-desc"><?php e('openjustice-desc');?></dd>
+
                 <dt class="translate" data-term="nonpubl"><?php e('nonpubl');?></dt>
                 <dd><ul>
                     <li class="translate" data-term="documap"><?php e('documap');?></li>
                     <li class="translate" data-term="infomap"><?php e('infomap');?></li>
-                    <li class="translate" data-term="rad"><?php e('rad');?></li>
                     <li class="translate" data-term="etc"><?php e('etc');?></li>
                 </ul></dd>
+                <dt class="translate" data-term="many_others"><?php e('many_others');?></dt>
             </dl>
         </section>
 
@@ -63,6 +73,7 @@ define('CURRENT_LANG',strval($ln));
                 <li><span><a href="http://careers.stackoverflow.com/pieterjanmontens " class="translate" data-term="stack"><?php e('stack');?></a></span></li>
                 -->
                 <li><span><a href="https://github.com/PieterjanMontens" class="translate" data-term="github"><?php e('github');?></a></span></li>
+                <li><span><a href="https://medium.com/@pieterjan_m" class="translate" data-term="medium"><?php e('medium');?></a></span></li>
             </ul>
         </section>
 
@@ -73,25 +84,27 @@ define('CURRENT_LANG',strval($ln));
 
         <section id="experience" class="block">
             <h3 class="translate" data-term="proexp"><?php e('proexp');?></h3>
-            <dl>
-                <dt><a href="http://www.raadvst-consetat.be" class="translate" data-term="council"><?php e('council');?></a></dt>
-                <dd class="translate" data-term="council_desc"><?php e('council_desc');?></dd>
-                <dt class="translate" data-term="formateur"><?php e('formateur');?></dt>
-                <dd class="translate" data-term="ifapme"><?php e('ifapme');?></dd>
-                <dd class="translate" data-term="egilia"><?php e('egilia');?></dd>
-                <dt class="translate" data-term="freelance"><?php e('freelance');?></dt>
-                <dd class="translate" data-term="freelance_dd"><?php e('freelance_dd');?></dd>
-                <dt class="translate" data-term="internship_dd"><?php e('internship_dd');?></dt>
-            </dl>
+            <p class="translate" data-term="exp_predesc"><?php e('exp_predesc');?></p>
+            <br />
+            <p>
+            <span class="translate" data-term="exp_desc"><?php e('exp_desc');?></span>
+                <a href="http://be.linkedin.com/in/pieterjanmontens/" class="translate" data-term="linkedin"><?php e('linkedin');?></a>
+            </p>
         </section>
 
         <section id="curriculum" class="block">
-            <h3 class="translate" data-term="curriculum"><?php e('curriculum');?></h3>
+            <h3 class="translate" data-term="articles"><?php e('articles');?></h3>
             <ul>
-                <li><span><a href="./pub/cv_web_2015.pdf" class="translate" data-term="cv-1" rel="nofollow"><?php e('cv-1');?></a></span></li>
+                <li><span><a href="https://plus.lesoir.be/347879/article/2021-01-09/la-chronique-de-carta-academica-deux-leviers-sobres-mais-puissants-pour-equiper" rel="nofollow">La chronique de Carta Academica - «Deux leviers sobres mais puissants pour équiper la Justice»</a></span></li>
+                <li><span><a href="https://openjustice.be/2020/08/25/report-de-la-publication-des-arrets-et-jugements-une-analyse/">Report de la publication des arrêts et jugements : une analyse</a></span></li>
+                <li><span><a href="https://medium.com/@pieterjan_m/%C3%A9valuer-et-innover-au-sein-du-service-public-3ed951689739">Évaluer et innover au sein du Service Public</a></span></li>
+                <li><span><a href="https://medium.com/@pieterjan_m/reinterpretation-of-the-mobile-workstation-e8dc95d279f9">Reinterpretation of the mobile workstation</a></span></li>
+                <li><span><a href="https://medium.com/@pieterjan_m/erlang-pi2-arm-cluster-vs-xeon-vm-40871d35d356">Erlang : Pi2 ARM cluster vs Xeon VM</a></span></li>
+                <li>...</li>
             </ul>
         </section>
 
+        <!--
         <section id="geekcred" class="block">
             <h3 class="translate" data-term="cred_title"><?php e('cred_title');?></h3>
             <ul>
@@ -102,6 +115,7 @@ define('CURRENT_LANG',strval($ln));
                 <li><span><a class="translate" data-term="workstation" href="http://imgur.com/a/36RGU"><?php e('workstation');?></a></span></li>
             </ul>
         </section>
+        -->
         <div id="lang">
         <ul>
             <li> <a href="./en" id="l_en" <?php echo CURRENT_LANG == 'en' ? 'class="selected"' : 'rel="alternate" hreflang="en"';?> alt="english">EN</a></li>

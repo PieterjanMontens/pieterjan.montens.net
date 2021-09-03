@@ -4,14 +4,14 @@ $exp = date("Y") - 2007;
 $terms = array(
     'name' => array( 'default'=>'Pieterjan Montens', ),
     'slogan' => array(
-        'fr'=>'Une passion pour l\'informatisation du Droit, des cours et des tribunaux',
-        'nl'=>'Een passie voor informatisering van het Recht, hoven en rechtbanken',
-        'en'=>'A passion for Law & Court computerization'
+        'fr'=>'Transformation numérique et innovation du droit, de la justice et du service public',
+        'nl'=>'Digitale transformatie en innovatie van recht, justitie en openbaar bestuur',
+        'en'=>'Digital transformation and innovation of law, justice and the public sector '
         ),
     'subtitle1'=> array(
-        'fr'=>"Juriste, Ingénieur logiciel et système: $exp ans d'expérience en conception, réalisation et soutien.",
-        'nl'=>"Jurist, Software en systeem ingenieur: $exp jaar ervaring in ontwerpen, uitvoeren en ondersteunen.",
-        'en'=>"Jurist, Software and system engineer: $exp years of experience in design, implementation and support."
+        'fr'=>"Développeur / Juriste / Innovateur secteur public et associatif",
+        'nl'=>"Ontwikkelaar / Jurist / Innovator in de openbare en non-profit sector",
+        'en'=>"Developer / Jurist / Public Sector & Non-Profit innovator"
              ),
     'juridict'=>array('default'=>'juridict'),
     'juridict-desc'=> array(
@@ -52,10 +52,21 @@ $terms = array(
         'nl'=>'Persoonlijk project rond inhoud van het Belgisch Staatsblad',
         'en'=>'Personal project with data from the belgian official journal'
         ),
+    'openjustice'=>array('default'=>'OpenJustice.be'),
+    'openjustice-desc'=>array(
+        'fr'=>'Asbl transformation numérique de la justice',
+        'nl'=>'Vzw digitale transformatie van justitie',
+        'en'=>'Non-profit for digital transformation of justice'
+        ),
     'nonpubl'=>array(
         'fr'=>'Applications non publiques',
         'nl'=>'Niet-openbare applicaties',
         'en'=>'Non-public applications'
+        ),
+    'many_others'=>array(
+        'fr'=>'Et beaucoup, beaucoup d\'autres',
+        'nl'=>'En vele, vele anderen',
+        'en'=>'And many, many others'
         ),
     'documap'=>array(
         'fr'=>'Documap: portail personnalisable de ressources documentaires',
@@ -75,20 +86,31 @@ $terms = array(
         ),
     'etc'=>array('default'=>'...'),
     'subtitle2'=>array(
-        'fr'=>'Divers profils à travers le web.',
-        'nl'=>'Verscheidene internet profielen',
-        'en'=>'Various web profiles'
+        'fr'=>'Ailleurs sur le web',
+        'nl'=>'Elders op internet',
+        'en'=>'Elsewhere on the web'
         ),
     'linkedin'=>array('default'=>'linkedin'),
     'twitter'=>array('default'=>'twitter'),
     'stack'=>array('default'=>'stackoverflow careers'),
     'github'=>array('default'=>'github'),
+    'medium'=>array('default'=>'medium'),
     'contact'=> array('default'=>'Contact'),
     'email' => array('default' => 'info@montens.net'),
     'proexp'=>array(
         'fr'=>'Expériences professionnelles.',
         'nl'=>'Professionele ervaringen',
         'en'=>'Professional experiences'
+        ),
+    'exp_predesc'=>array(
+        'fr'=>'Conseil d\'État, The Faktory, Beta.gouv.fr, Caisse des Dépôts, ITOU, ULiege, OpenJustice.be, ...',
+        'nl'=>'Raad van State, The Faktory, Beta.gouv.fr, Caisse des Dépôts, ITOU, ULiege, OpenJustice.be, ...',
+        'en'=>'Council of State, The Faktory, Beta.gouv.fr, Caisse des Dépôts, ITOU, ULiege, OpenJustice.be, ...'
+        ),
+    'exp_desc'=>array(
+        'fr'=>'Tout, tout est décrit sur',
+        'nl'=>'Alles staat genoteerd op',
+        'en'=>'It\'s all written down on'
         ),
     'council'=>array(
         'fr'=>'Conseil d\'État',
@@ -126,7 +148,11 @@ $terms = array(
         'nl'=>'Stage bij de Kamer der Volksverteginwoordigers, project BelgieLex, meta-zoekmotor, 2005',
         'en'=>'Internship in the Belgian House of Representatives, BelgiumLex project, meta-search engine project in 2005'
         ),
-    'curriculum'=>array('default'=>'Curriculum'),
+    'articles'=>array(
+        'fr'=>'Articles sur le web',
+        'nl'=>'Artikelen op internet',
+        'en'=>'Articles on the web',
+        ),
     'cv-1'=>array('default'=>'EN - 2015'),
     'cred_title'=>array(
         'fr'=>'Faits d\'armes (aka Geek Cred)',
